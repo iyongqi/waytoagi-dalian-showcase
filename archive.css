@@ -21,3 +21,26 @@
   color: var(--muted);
   font-size: 12px;
 }
+
+.photo-card img {
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: #e1e6df;
+}
+
+.event-cover {
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  background: #e1e6df;
+}
+
+.hero-photo {
+  height: auto;
+  aspect-ratio: 3 / 2;
+}
+
+.hero-photo img {
+  object-fit: contain;
+}
